@@ -1,5 +1,9 @@
+.root {
+   margin-top: -8px;
+}
+
 .container {
-   padding-top: 20px; 
+   padding-top: 10px; 
 }
 
 .card {
@@ -14,4 +18,31 @@
 
 .text-medium {
    font-size: 16px;
+}
+
+.text-xs {
+   font-size: 12px;
+}
+
+.bold {
+   font-weight: 600;
+}
+
+.semi-bold {
+   font-weight: 400;
+}
+
+.blue-btn {
+   background-color: #1A3875;
+   color: white;
+   padding: 6px;
+   border-radius: 4px;
+}
+
+.normal-btn {
+   background-color: white;
+   border: none;
+   text-decoration: underline;
+   color: #1A3875;
+   font-size: 14px;
 }

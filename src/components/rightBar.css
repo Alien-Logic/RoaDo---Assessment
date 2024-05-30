@@ -1,3 +1,7 @@
+.right {
+    padding-left: 10px;
+}
+
 .payments {
     display: flex;
     gap: 16px;

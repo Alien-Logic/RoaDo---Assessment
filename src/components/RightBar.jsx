@@ -8,8 +8,8 @@ const RightBar = () => {
     const date = new Date();
     
   return (
-    <div className='container'>
-      <h2>Todays Highlights</h2>
+    <div className='container right'>
+      <h2>Todays Highlights ({activities.completed.orders.length})</h2>
       <p className='grey'>{date.getDate() + " " + month[date.getMonth()] + " " + date.getFullYear()}</p>
       <div className='payments'>
         <div className='card'>

@@ -7,9 +7,9 @@ function App() {
   
   return (
    <div className="root">
-    <LeftBar />
-    <Main />
-    <RightBar />
+    <div className="component1"><LeftBar /></div>
+    <div className="component2"><Main /></div>
+    <div className="component3"><RightBar /></div>
    </div>
   )
 }

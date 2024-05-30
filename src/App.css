@@ -1,4 +1,15 @@
 .root {
     display: flex;
-    justify-content: space-between;
+}
+
+.component1 {
+    flex: 0 0 2%;
+}
+
+.component2 {
+    flex: 0 0 70%;
+}
+
+.component3 {
+    flex: 0 0 28%;
 }
