@@ -46,3 +46,22 @@
    color: #1A3875;
    font-size: 14px;
 }
+
+.menu-bar {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+   color: rgb(98, 95, 95);
+   margin-left: -30px;
+
+   li {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+   }
+
+   li:hover {
+      color: #1A3875;
+   }
+}
