@@ -7,3 +7,11 @@
    border: 2px solid rgb(230, 225, 225);
    min-width: 100px;
 }
+
+.blue {
+   color: rgb(47, 80, 166);
+}
+
+.text-medium {
+   font-size: 16px;
+}

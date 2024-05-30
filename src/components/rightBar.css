@@ -24,3 +24,19 @@
     margin-top: 0px;
     margin-bottom: 8px;
 }
+
+.activities-header {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+        border: none;
+        background-color: #fff;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    button:hover {
+        font-size: 14px;
+    }
+}

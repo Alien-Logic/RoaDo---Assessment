@@ -3,7 +3,9 @@ const activities = {
   expenses: 50000,
   receivedPayments: 2,
   paidPayments: 5,
-  completed: [
+  completed: {
+    title: "Completed Activities",
+    orders: [
     {
       name: "Gurpreet Singh",
       title: "Dispatch team",
@@ -60,8 +62,10 @@ const activities = {
       type: "nameFirst",
       productNo: "Load No. I-I-AAA-1325",
     },
-  ],
-  scheduled: [
+  ]},
+  scheduled: {
+    title: "Scheduled Activities",
+    orders: [
     {
       name: "Gurpreet Singh",
       title: "Dispatch team",
@@ -118,7 +122,7 @@ const activities = {
       type: "nameFirst",
       productNo: "Load No. I-I-AAA-1325",
     },
-  ],
+  ]},
 };
 
 export default activities;
