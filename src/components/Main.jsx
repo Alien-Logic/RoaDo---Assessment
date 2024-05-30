@@ -5,8 +5,8 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import QuickActions from "./QuickActions";
 import PriorityAlerts from "./PriorityAlerts";
-import Chart from "./Chart";
 import activities from "../data/activities";
+import ProChart from "./ProChart";
 
 const Main = () => {
   return (
@@ -31,7 +31,7 @@ const Main = () => {
       </div>
       <div className="charts">
         {activities.charts && activities.charts.map((item, index) => (
-          <Chart key={index} props = {item} />
+          <ProChart key={index} props = {item} />
         ))}
       </div>
       <QuickActions />

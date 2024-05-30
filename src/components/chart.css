@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: white;
     padding: 12px;
-    min-width: 200px;
+    min-width: 220px;
     border-radius: 10px;
 }
 
@@ -25,6 +25,12 @@
     border-radius: 4px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.dou-chart {
+    max-width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .golden-bg {

@@ -9,23 +9,23 @@ const QuickActions = () => {
     <div>
       <h2>Quick Actions</h2>
       <div className="actions-container">
-        <div>
+        <div className="action">
           <LabelImportantOutlinedIcon />
           <p>Create Indents</p>
         </div>
-        <div>
+        <div className="action">
           <LocalShippingOutlinedIcon />
           <p>Add Vehicle</p>
         </div>
-        <div>
+        <div className="action">
           <RvHookupOutlinedIcon />
           <p>Add Trailer</p>
         </div>
-        <div>
+        <div className="action">
           <PermIdentityOutlinedIcon />
           <p>Add Driver</p>
         </div>
-        <div>
+        <div className="action">
           <LocalShippingOutlinedIcon />
           <p>Add Indents</p>
         </div>
