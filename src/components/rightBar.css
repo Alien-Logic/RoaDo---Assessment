@@ -1,0 +1,26 @@
+.payments {
+    display: flex;
+    gap: 16px;
+}
+
+.grey {
+    font-size: 16px;
+    color: gray;
+}
+
+.income {
+    color: green;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.expenses {
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card p {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
